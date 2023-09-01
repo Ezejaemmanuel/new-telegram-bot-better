@@ -30,7 +30,6 @@ type MyContext = Context & SessionFlavor<SessionData> & ConversationFlavor;
 //export type MyConvContext = Context & ConversationFlavor;
 type MyConversation = Conversation<MyContext>;
 
-
 const TOKEN = process.env.INVESTIVAPRO_TOKEN;
 console.log(TOKEN);
 if (!TOKEN) {
